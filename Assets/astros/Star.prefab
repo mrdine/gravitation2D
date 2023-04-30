@@ -103,7 +103,7 @@ MonoBehaviour:
   mass: 20
   lightSpeed: 2
   lightRangeAmplitude: 0.2
-  maxDistance: 20
+  maxDistance: 200
 --- !u!50 &687437208666903886
 Rigidbody2D:
   serializedVersion: 4

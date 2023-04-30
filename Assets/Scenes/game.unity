@@ -404,11 +404,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8479049777431916782, guid: 78efe089d27187947b43757dd870c4e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.8
+      value: 3.99
       objectReference: {fileID: 0}
     - target: {fileID: 8479049777431916782, guid: 78efe089d27187947b43757dd870c4e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5
+      value: 2.06
       objectReference: {fileID: 0}
     - target: {fileID: 8479049777431916782, guid: 78efe089d27187947b43757dd870c4e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -541,10 +541,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c0b6add224062459c57e1381a0995b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomSpeed: 5
-  cameraSpeed: 3
+  zoomSpeed: 0.025
+  cameraSpeed: 0.5
   minZoom: 1
   maxZoom: 10
+  maxDistance: 14
 --- !u!1 &972951292
 GameObject:
   m_ObjectHideFlags: 0

@@ -52,12 +52,13 @@ public class Astro : MonoBehaviour
         transform.rotation *= Quaternion.Euler(0f, 0f, rotationSpeed * Time.deltaTime);
     }
 
-     private void OnMouseDown()
+    private void OnMouseDown()
     {
-        if(togglesManager.getRemoveToggle().isOn) {
+        if (togglesManager.getRemoveToggle().isOn)
+        {
             Destroy(gameObject);
         }
-       
+
     }
 
 }
